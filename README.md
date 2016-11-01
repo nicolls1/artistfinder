@@ -2,7 +2,7 @@
 
 ## To run basic
 
-I included a build JS file so just double click index.html
+I included a build JS file so just double click index.html to open in Crome.
 
 ## To run fancy or for dev
 
