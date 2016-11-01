@@ -1,0 +1,182 @@
+body {
+    font-family: 'proxima_nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #1c1c1f;
+    color: #dfe0e6;
+    font-weight: 100;
+    min-width: 425px;
+    cursor: default;
+    font-weight: 400;
+}
+
+input {
+    font-family: 'proxima_nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+a:link {
+    color: #dfe0e6;
+}
+
+a:visited {
+    color: #dfe0e6;
+}
+
+a:hover {
+    color: #dfe0e6;
+}
+
+a:active {
+    color: #dfe0e6;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.page-body {
+    text-align: center;
+}
+
+.search-typeahead-row {
+    padding: 0px 5px;
+    width: 250px;
+}
+
+.typeahead-row.active {
+    background-color: #3e3e40;
+    color: #dfe0e6;
+}
+
+.search-typeahead-row .name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header {
+    position: relative;
+    background-color: #121314;
+}
+
+.header h1 {
+    font-weight: 100;
+    margin: 0;
+    padding: 20px;
+    display: inline-block;
+}
+
+.typeahead-input-row-container {
+    background-color: #dfe0e6;
+    color: #3e3e40;
+}
+
+.typeahead-input  {
+    display: inline-block;
+}
+
+.typeahead-input form input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 5px 12px 4px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3e3e40;
+    vertical-align: middle;
+    background-color: #dfe0e6;
+    border: 1px solid #dfe0e6;
+    border-radius: 3px;
+}
+
+.search-result {
+    text-align: center;
+    max-width: 640px;
+    margin: 15px auto;
+    padding: 0px 15px;
+}
+
+.search-result div {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.artist-image {
+    width: 100%;
+    height: auto;
+}
+
+.track-list {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.track-list h1 {
+    margin: 20px;
+}
+
+.tracks {
+    text-align: center;
+}
+
+.track-box {
+    display: inline-block;
+    width: 245px;
+    height: 245px;
+    vertical-align: top;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    margin: 15px 7px;
+}
+
+.track-box img {
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+}
+
+.track-box .name {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.track-box .name,
+.track-box .album {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.player-button {
+    background-color: #648f00;
+    border-radius: 500px;
+    height: 28px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.player-button.playing {
+}
+
+.not-found {
+    display: inline-block
+}

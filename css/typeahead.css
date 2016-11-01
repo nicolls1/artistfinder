@@ -1,0 +1,16 @@
+
+.typeahead-input {
+    position: absolute;
+}
+
+.typeahead-input-row-container {
+    position: absolute;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 10px rgba(0, 0, 0, .35);
+    border-radius: 2px;
+    padding: 4px 0px;
+}
+
+.typeahead-row.active {
+    background-color: blue;
+}
+
