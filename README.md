@@ -2,7 +2,7 @@
 
 ## To run basic
 
-Double click index.html
+I included a build JS file so just double click index.html
 
 ## To run fancy or for dev
 
